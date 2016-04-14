@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="shortcut icon" href="icons/icon0.ico"></link>
+	<link rel="icon" href="icons/icon0.ico" type="image/x-icon">
+	<title>jQuery</title>
+
+	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="js/tabs.js"></script>
+	<script src="js/tooltips.js"></script>
+</head>
+<body>
+		<div class="tabs">
+			<ul>
+				<li title="jQuery" class="tabs__item tabs__item0--active"><a href="#" class="menu__link"></a></li>
+				<li title="jQuery UI" class="tabs__item tabs__item1--inactive"><a href="#" class="menu__link"></a></li>
+				<li title="jQuery Mobile" class="tabs__item tabs__item2--inactive"><a href="#" class="menu__link"></a></li>
+				<li title="Sizzle" class="tabs__item tabs__item3--inactive"><a href="#" class="menu__link"></a></li>
+				<li title="QUnit" class="tabs__item tabs__item4--inactive"><a href="#" class="menu__link"></a></li>
+			</ul>
+		</div>
+		
+		<div class="content content--0">
+			<div class="content__img content__img--0"></div>
+		</div>
+		<div class="content content--1">
+			<div class="content__img content__img--1"></div>
+				
+				<form class="form">
+					<fieldset>
+						<legend class="form__legend">Personal information</legend>
+						<div class="form__field--firstname">
+							<label class="form__label" for="firstname">Firstname</label>
+							<input class="form__input form__input--firstname"  data-tooltip="Please provide your firstname." type="text">
+						</div>
+						<div class="form__field--lastname">
+							<label class="form__label" for="lastname">Lastname</label>
+							<input class="form__input form__input--lastname" data-tooltip="Please provide also your lastname." type="text">
+						</div>
+						<div class="form__field--address">
+							<label class="form__label" for="address">Address&nbsp;&nbsp;</label>
+							<input class="form__input form__input--address" data-tooltip="Please provide also your address." type="text">
+						</div>
+
+						<button class="form__button"><span class="form__span">Submit </span></button>
+					</fieldset>
+				</form>
+
+		</div>
+		<div class="content content--2">
+			<div class="content__img content__img--2"></div>
+		</div>
+		<!-- 3-й таб - переход на sizzlejs.html -->
+		<div class="content content--4">
+			<div class="content__img content__img--4"></div>
+		</div>
+
+		<div class="form__tooltip"></div>
+
+	
+</body>
+</html>
